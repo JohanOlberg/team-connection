@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace api.Modules.RulesConnection.Controllers;
+namespace api.Modules.UpdatesConnection.Feature.Presentation.Controllers;
 
 [ApiController]
 [Route("[controller]")]

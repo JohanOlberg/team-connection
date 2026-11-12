@@ -37,11 +37,11 @@ public void Update(
     string group)
 {
     Title = StringValidation(title, 10, 50);
-    Description = StringValidation(title, 50, 120);
-    Content = StringValidation(title, 50, 1000);
-    Area = StringValidation(title, 1, 30);
-    Author = StringValidation(title, 1, 100);
-    Group = StringValidation(title, 1, 50);
+    Description = StringValidation(description, 50, 120);
+    Content = StringValidation(content, 50, 1000);
+    Area = StringValidation(area, 1, 30);
+    Author = StringValidation(author, 1, 100);
+    Group = StringValidation(group, 1, 50);
     UpdatedAt = DateTimeOffset.UtcNow;
 }
 public void ChangeStatus(Status status)
